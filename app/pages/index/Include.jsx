@@ -1,5 +1,5 @@
 /**
- * Copyright - Panally Internet
+ * Copyright - WebApp
  */
 
 /*
@@ -10,7 +10,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Url from 'app/config/core/url'
-import PanallyMetaTags from 'app/utils/meta-generator'
+import WebAppMetaTags from 'app/utils/meta-generator'
 
 class Include extends React.Component {
 
@@ -30,7 +30,7 @@ class Include extends React.Component {
 		const TwitterDescription = CoreDescription;
 		const TwitterImageSrc = CoreImage;
 
-		const MetaTags = PanallyMetaTags (
+		const MetaTags = WebAppMetaTags (
 			Description,
 			OgTitle,
 			OgImage,

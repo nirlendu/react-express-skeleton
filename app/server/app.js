@@ -1,5 +1,5 @@
 /**
- * Copyright - Panally Internet
+ * Copyright - WebApp
  */
   
 var path = require('path');

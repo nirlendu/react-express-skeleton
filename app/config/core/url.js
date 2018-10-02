@@ -1,5 +1,5 @@
 /**
- * Copyright - Panally Internet
+ * Copyright - WebApp
  */
 
 if (process.env.NODE_ENV == 'development'){

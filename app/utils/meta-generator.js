@@ -1,5 +1,5 @@
 /**
- * Copyright - Panally Internet
+ * Copyright - WebApp
  */
 
 /*
@@ -22,8 +22,8 @@ export default function MetaGenerator(
 ){
 	return HtmlTagsGenerator(
 		description, 
-		'Panally', 
-		'Panally',
+		'WebApp', 
+		'WebApp',
 		'width=device-width, initial-scale=1.0',
 		'#ff2c47',
 		'euh14CFh_smG33v0vWDeImZgOvvZ4U3MlojQbXEyMHk', 
@@ -35,10 +35,10 @@ export default function MetaGenerator(
 		'#ffffff',
 		Url.Static.App.Endpoint + 'favicon/ms-icon-144x144.png',
 		TwitterCard,
-		'@panallydotcom',
+		'@WebAppdotcom',
 		TwitterTitle,
 		TwitterDescription, 
-		'@panallydotcom',
+		'@WebAppdotcom',
 		TwitterImageSrc
 	)
 }

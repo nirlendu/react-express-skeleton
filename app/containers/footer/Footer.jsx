@@ -1,5 +1,5 @@
 /**
- * Copyright - Panally Internet
+ * Copyright - WebApp
  */
 
 /*
@@ -117,7 +117,7 @@ const Style = StyleSheet.create({
 
 class Logo extends React.Component {
 	render() {
-		var FooterImage = Url.Static.App.Endpoint + 'footer/panally.jpg';
+		var FooterImage = Url.Static.App.Endpoint + 'footer/WebApp.jpg';
 		return (
 			<div className={css(Style.Container)}>
 				<div className={css(Style.LogoText)}>

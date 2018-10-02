@@ -1,5 +1,5 @@
 /**
- * Copyright - Panally Internet
+ * Copyright - WebApp
  */
 
 /*
@@ -12,7 +12,7 @@ import Helmet from 'react-helmet'
 import CoreNavbarCss from './core-navbar-css'
 
 import Url from 'app/config/core/url'
-import PanallyMetaTags from 'app/utils/meta-generator'
+import WebAppMetaTags from 'app/utils/meta-generator'
 
 export default class Include extends React.Component {
 	
@@ -32,7 +32,7 @@ export default class Include extends React.Component {
 		const TwitterDescription = CoreDescription;
 		const TwitterImageSrc = CoreImage;
 
-		const MetaTags = PanallyMetaTags (
+		const MetaTags = WebAppMetaTags (
 			Description, 
 			OgTitle,
 			OgImage,
@@ -47,7 +47,7 @@ export default class Include extends React.Component {
 		return (
 			<Helmet
 				htmlAttributes={{lang: "en", amp: undefined}} // amp takes no value
-				title="Panally"
+				title="WebApp"
 				titleAttributes={{itemprop: "name", lang: "en"}}
 				meta={MetaTags}
 				link={[

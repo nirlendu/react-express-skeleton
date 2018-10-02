@@ -1,6 +1,6 @@
 
 /**
- * Copyright - Panally Internet
+ * Copyright - WebApp
  */
 
 var Webpack = require('webpack');

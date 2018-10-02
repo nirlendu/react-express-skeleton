@@ -1,5 +1,5 @@
 /**
- * Copyright - Panally Internet
+ * Copyright - WebApp
  */
 
 // const winston = require('winston');
@@ -7,13 +7,13 @@
 // winston.level = 'info';
 // winston.configure({
 //     transports: [
-//       new (winston.transports.File)({ filename: '../logs/agni/info.log' })
+//       new (winston.transports.File)({ filename: '../logs/WebApp/info.log' })
 //     ]
 // });
  
 // // winston.add(winston.transports.Loggly, {
 // //     token: "4a7c272e-4975-456b-8bcb-0aae6552af5d",
-// //     subdomain: "panally",
+// //     subdomain: "WebApp",
 // //     tags: ["Winston-NodeJS"],
 // //     json:true
 // // });
